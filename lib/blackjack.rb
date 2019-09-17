@@ -1,13 +1,17 @@
 def welcome
   # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
   # code #deal_card here
+ rand(11) + 1 
 end
 
-def display_card_total
+def display_card_total(card)
   # code #display_card_total here
+  card = deal_card
+  puts display_card_total(card)
 end
 
 def prompt_user
